@@ -1,0 +1,137 @@
+.container {
+    /*width: 2400px;*/
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.header {
+    height: 518px;
+    background-image: url("../img/bg-header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1  {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 0.703;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 span{
+    color: rgb(195, 229, 75);
+}
+
+.header nav {
+    font-size: 24px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.405;
+    text-align: left;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+}
+
+.header .underscore {
+    width: 47px;
+    height: 2px;
+    background-color: #edbfff;
+}
+
+.slider h3 {
+    font-size: 36px;
+    font-family: "LeagueGothic";
+    color: rgb(254, 254, 254);
+    line-height: 0.667;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.dot {
+    background-color: #000000;
+    height: 17px;
+    width: 17px;
+    opacity: 0.302;
+    border-radius: 50%;
+}
+
+.dropdown {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    visibility: hidden;
+    font-size: 24px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.75;
+    text-align: center;
+    width: 253px;
+    height: 268px;
+    border-radius: 5%;
+}
+
+.blurb {
+    height: 601px;
+    background-color: #edbfff;
+}
+
+.blurb h3 {
+    font-size: 24px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    text-transform: uppercase;
+}
+
+.blurb span {
+    font-size: 18px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: left;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+}
+
+.blurb row span {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    text-transform: none;
+}
+
+
+
+
+
+
+
