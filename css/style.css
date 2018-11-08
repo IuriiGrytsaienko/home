@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'LeagueGothic';
+    src: url("../fonts");
+}
+
 .container {
     /*width: 2400px;*/
 }
@@ -41,7 +46,7 @@
 }
 
 .header h1 span{
-    color: rgb(195, 229, 75);
+    color: #654672;
 }
 
 .header nav {
@@ -129,9 +134,112 @@
     text-transform: none;
 }
 
+.about {
+    height: 1197px;
+}
 
+.posts {
+    height: 384px;
+    background-color: red;
+}
 
+.card {
+    height: 274px;
+    background-color: green;
+    position: relative;
+}
 
+.card-bg {
+    background-color: #fff;
+    width: 257px;
+    height: 273px;
+    margin-left: 45px;
+    /*position: absolute;*/
+    z-index: 0;
+}
 
+.card img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 
+}
+
+.card-title {
+    font-size: 24px;
+    font-family: 'LeagueGothic', sans-serif;
+    color: rgb(69, 69, 69);
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    position: absolute;
+    top: 28px;
+    left: 80px;
+}
+
+.card-text {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(69, 69, 69);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    position: absolute;
+    top: 84px;
+    left: 82px;
+}
+
+.updates {
+    height: 263px;
+    width: 280px;
+    background-color: blue;
+}
+
+.updates-title {
+    font-size: 30px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    text-transform: uppercase;
+}
+
+.post-title {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(69, 69, 69);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.updates p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 1.333;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.logos {
+    height: 425px;
+}
+
+footer {
+    height: 200px;
+    background-image: url("../img/bg-footer.png");
+}
+
+footer span {
+    font-size: 12px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 2.81;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
 
