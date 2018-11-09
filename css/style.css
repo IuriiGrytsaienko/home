@@ -3,6 +3,12 @@
     src: url("../fonts");
 }
 
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+
+* {
+    font-family: "League Gothic";
+}
+
 .container {
     /*width: 2400px;*/
 }
@@ -38,7 +44,7 @@
 .header h1  {
     text-transform: uppercase;
     font-size: 48px;
-    font-family: "LeagueGothic";
+    font-family: "League Gothic";
     color: rgb(255, 255, 255);
     line-height: 0.703;
     text-align: left;
@@ -47,11 +53,14 @@
 
 .header h1 span{
     color: #654672;
+    background: linear-gradient(to top, #33263a, #745083 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header nav {
     font-size: 24px;
-    font-family: "LeagueGothic";
+    font-family: "League Gothic";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 1.405;
@@ -67,11 +76,18 @@
 
 .slider h3 {
     font-size: 36px;
-    font-family: "LeagueGothic";
+    font-family: "League Gothic";
     color: rgb(254, 254, 254);
     line-height: 0.667;
     text-align: left;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    margin: 7px 0;
+}
+
+.slider span {
+    display: inline-block;
+    color: #edbfff;
+    text-transform: uppercase;
 }
 
 .dot {
@@ -82,31 +98,63 @@
     border-radius: 50%;
 }
 
-.dropdown {
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    position: absolute;
-    visibility: hidden;
+.mainmenubtn {
     font-size: 24px;
-    font-family: "LeagueGothic";
+    font-family: "League Gothic";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    line-height: 1.75;
-    text-align: center;
-    width: 253px;
-    height: 268px;
-    border-radius: 5%;
+    line-height: 1.405;
+    text-align: left;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+    top: 0;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+
+}
+.dropdown-child a {
+    color: #ffffff;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    font-family: "League Gothic";
+    text-transform: uppercase;
+    line-height: 1.75;
+}
+
+
+
+
+.dropdown:hover .dropdown-child {
+    display: block;
+    position: absolute;
+    width: 246px;
+    height: 259px;
+    background-color: #3d3146;
+    border-radius: 10%;
+}
+
+
+
+
+
 
 .blurb {
     height: 601px;
-    background-color: #edbfff;
+    background: linear-gradient(to top, #36293d, #755284 );;
 }
 
 .blurb h3 {
     font-size: 24px;
-    font-family: "LeagueGothic";
+    font-family: "League Gothic";
     color: rgb(255, 255, 255);
     line-height: 1;
     text-align: left;
@@ -116,7 +164,7 @@
 
 .blurb span {
     font-size: 18px;
-    font-family: "LeagueGothic";
+    font-family: "League Gothic";
     color: rgb(255, 255, 255);
     line-height: 1.333;
     text-align: left;
@@ -126,7 +174,7 @@
 
 .blurb row span {
     font-size: 16px;
-    font-family: "OpenSans";
+    font-family: "Open Sans";
     color: rgb(255, 255, 255);
     line-height: 1.5;
     text-align: left;
